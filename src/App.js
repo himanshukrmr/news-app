@@ -1,5 +1,6 @@
 import React,{useState} from 'react';
 import SearchBar from './SearchBar';
+import Headline from './Headline';
 
 function News()
 {
@@ -30,6 +31,7 @@ function News()
   }
   f1();
   return(<><div><SearchBar/></div>
+  <div><Headline/></div>
   <div class="p-10 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-5">{value}</div></>)
 }
 
