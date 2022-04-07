@@ -4,7 +4,7 @@ import Headline from './Headline';
 
 function News()
 {
-  let [value,setValue] = useState("");
+  let [value,setValue] = useState([]);
   let [search,setSearch] = useState("tesla");
   
   async function f1()
